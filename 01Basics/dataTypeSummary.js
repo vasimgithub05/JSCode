@@ -28,3 +28,24 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello Wolrd");
 }
+
+
+//*********************************************Mamary
+
+// Stack (Priitive); Heap (Non Primitive)
+
+let myName = "Vasim";
+let anatherName = myName;
+anatherName = "Sayyad"
+console.log(myName);
+console.log(anatherName);
+
+let userOne = {
+    name : "Vasim",
+    age : 34
+}
+let userTwo = userOne
+userTwo.age = 32
+
+console.log(userOne.age);
+console.log(userTwo.age);
