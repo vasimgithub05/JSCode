@@ -16,6 +16,6 @@ console.log(undefined == 1);
 console.log(undefined != 1);
 
 
-// === here forcefully check tyfof
+// === here forcefully check typeof
 
 console.log("2" === 2);

@@ -18,15 +18,27 @@ if(userEmail) {
 
 const userName = [];
 if(userName.length === 0){
-    console.log("This is Empty Array");
+   // console.log("This is Empty Array");
 }
 
-const emptyObj = {};
+const emptyArr = [];
+if(emptyArr.length === 0){
+    console.log("This array is empty")
+}
 
+
+const emptyObj = {};
 if(Object.keys(emptyObj).length === 0){
     console.log("Object is empty");
     console.log(typeof emptyObj);
 }
+
+const objectEmpty = {}
+if(Object.keys(objectEmpty).length === 0 ){
+    console.log("This Object is Empty");
+    console.log(typeof objectEmpty);
+}
+
 
 //Nullish Coalescing Operator (??) : null, undefined;
 

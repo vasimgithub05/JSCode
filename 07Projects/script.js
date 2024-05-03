@@ -25,8 +25,8 @@ buttons.forEach(function(button){
        }
        if(e.target.id === 'yellow'){
         body.style.backgroundColor = e.target.id;
-        h1.style.color = 'black';
+        h1.style.color = 'black';  
         h2.style.color = 'black'
        }
     })
-})
+})     
